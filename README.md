@@ -1,1 +1,3 @@
 # TriMetAlert
+
+This repo shows the work I did for a simple TriMet alert program.  TriMet is the public transportation system for the Portland metro area.  In order to make my afternoon gym class I need to catch a specific bus within a certain time interval.  Since buses are not that consistent I would check the arrival times for my bus stop around 3:20 pm everyday.  This process annoyed me.  I wanted a program that would pull the arrival times from the TriMet API for my bus stop, filter the times for only my specific bus, and then send me the arrival times to my phone.  And since I wanted this to happen at a certain time of the day I created a scheduled task with Window Task Scheduler that runs my program at 3:20 pm.
